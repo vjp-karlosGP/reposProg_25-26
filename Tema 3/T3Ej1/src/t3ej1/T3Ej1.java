@@ -4,7 +4,7 @@
  */
 package t3ej1;
 
-import java.util.Scanner;
+import java.util.Scanner; //importamos el scanner
 
 /**
  *
@@ -16,16 +16,16 @@ public class T3Ej1 {
      */
     public static void main(String[] args) {
         int num;
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in); 
         System.out.println("Introduce un numero");
         
         num = entrada.nextInt();
         
         if (num >= 0) {
-            System.out.println("Tu numero es positivo");
+            System.out.println("Tu numero es positivo"); //ponemos para que diga si es positivo en el if
             
         } else {
-            System.out.println("Tu numero es negativo");
+            System.out.println("Tu numero es negativo"); //ponemos para que diga si es negativo en el if
         }
         
         
